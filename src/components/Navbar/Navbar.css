@@ -1,5 +1,6 @@
 :root {
     --navBg: #343b60;
+   
   }
   
   .navbar {
@@ -8,6 +9,7 @@
     display: flex;
     justify-content: start;
     align-items: center;
+    
   }
   
   .menu-bars {
@@ -26,6 +28,7 @@
     top: 0;
     left: -100%;
     transition: 850ms;
+    z-index: 999;
   }
   
   .nav-menu.active {
