@@ -8,7 +8,7 @@ function BarcodeScanner() {
 
   return (
     <>
-      <button onClick={() => setShow(true)}>open</button>
+      <button onClick={() => setShow((prevState) => !prevState)}>open</button>
       {show && (
         <BarcodeScannerComponent
           width={500}
