@@ -24,6 +24,7 @@ function BarcodeScanner() {
       <button onClick={() => setTorchOn(!torchOn)}>
         Switch Torch {torchOn ? "Off" : "On"}
       </button>
+      <button>Submit Code : {data}</button>
     </>
   );
 }
